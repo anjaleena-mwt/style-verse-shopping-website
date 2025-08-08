@@ -3,13 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About - StyleVerse</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font: Cinzel -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Luckiest+Guy&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <h1>ABOUT STYLEVERSE</h1>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8e8efce;
+            color: #333;
+            line-height: 1.8;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            background-color: rgb(220, 209, 211);
+            color: rgb(27, 15, 15);
+            text-align: center;
+            font-family: 'cinzel';
+            padding: 1.5rem 1rem;
+            margin: 0;
+            font-size: 27px;
+        }
+
+        .about-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px rgba(211, 7, 96, 0.71);
+        }
+
+        .about-container p {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #3b2d37;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    </head>
+    <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><span class="text-pink">Style</span><span class="text-black">Verse</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto cinzel-font">
+        <li class="nav-item active">
+            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="executivewear.html">Executive Wear</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="designerbags.html">Designer Bags</a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="jewellery.html">Jewellery</a>
+        </li>
+        </ul>
+
+        <!-- Search Bar -->
+        <div class="search-container d-flex align-items-center">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" class="search-input" placeholder="Search for products and brands">
+        </div>
+
+        <!-- Icons -->
+        <div class="icons d-flex align-items-center ml-3">
+        <a href="login.html" class="nav-icon mx-2" title="Login"><i class="fa-solid fa-user"></i></i></a>
+        <a href="wishlist.html" class="nav-icon mx-2" title="Wishlist"><i class="far fa-heart"></i></a>
+        <a href="cart.html" class="nav-icon mx-2" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
     </div>
+    </nav>
     
+    <h1><b>ABOUT STYLEVERSE</b></h1>
+
+    <div class="about-container">
+        <p>
+            Welcome to <strong>StyleVerse</strong>, your ultimate destination for fashion that blends elegance, comfort, and sophistication. 
+            We specialize in providing a wide selection of high-quality workwear designed to make you feel confident and stylish, 
+            whether you are at the office, a meeting, or a business event.
+        </p>
+
+        <p>
+            Our curated collection also features <strong>designer bags</strong> that combine functionality with trend-setting style, 
+            and <strong>classic jewellery</strong> pieces that add a timeless touch to your look. At StyleVerse, we believe in 
+            fashion that inspires and empowers, ensuring you always put your best self forward.
+        </p>
+    </div>
+
+    <footer><br>
+        <p>&copy; 2025 StyleVerse. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5">
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c2331"
+            >
+        <!-- Section: Social media -->
+        <section
+                class="d-flex justify-content-between p-4"
+                style="background-color: #6351ce"
+                >
+        <!-- Left -->
+        <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Company name</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #a596cf; height: 2px"
+                    />
+                <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                <a href="#!" class="text-white">MDBootstrap</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">MDWordPress</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">BrandFlow</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">Bootstrap Angular</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                <a href="#!" class="text-white">Your Account</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                <a href="#!" class="text-white">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+            >
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+
+    <!-- Bootstrap & JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

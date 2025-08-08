@@ -3,33 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Register - StyleVerse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #faf7f2;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            margin-top: 40px;
+            color: #4a2e2b;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            color: #4a2e2b;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #d4a373;
+            color: white;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: #b07a4c;
+        }
+        a {
+            color: #d4a373;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        /* Responsive Design */
+        @media (max-width: 500px) {
+            form {
+                padding: 15px;
+                margin: 10px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            input[type="submit"] {
+                padding: 8px;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>REGISTRATION</h1>
     <form action="login.html" method="get">
-
         <div>
             <label for="Username">Enter Username :</label>
-            <input type="text" id="username" name="usernmae" required>
+            <input type="text" id="username" name="username" required>
         </div>
-
-        <div><br>
+        <div>
             <label for="Email">Enter Email :</label>
             <input type="text" id="email" name="email" required>
         </div>
         <div>
-            <br>
-            <label for="Email">Enter Password :</label>
+            <label for="Password">Enter Password :</label>
             <input type="password" id="pass" name="pass" required>
         </div>
         <div>
-            <br>
-            <input type="submit" value="SUBMIT">
+            <label for="Address">Enter Address :</label>
+            <input type="text" id="address" name="address" required>
         </div>
         <div>
-            <br><br>
-            <label for="register">Already registered? <a href="login.html">Login</a></label>
+            <input type="submit" value="SUBMIT">
+        </div>
+        <div style="text-align:center;">
+            Already registered? <a href="login.html">Login</a>
         </div>
     </form>
 </body>
